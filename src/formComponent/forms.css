@@ -1,0 +1,122 @@
+
+.form{
+    margin: auto;
+    width:450px;
+    height:600px;
+    background-color: white;
+}
+.header{
+    background-color: white;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.header>div:nth-child(even){
+    background-color: black;
+    position: relative;
+    top:-12px;
+    width:110px;
+    border:0.5px solid gray;
+}
+.header>div:nth-child(odd){
+    color: white;
+    width:25px;
+    height: 25px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 50%;
+}
+#header_detail{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.details{
+    cursor: pointer;
+    width:100%;
+    padding-top: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.details>div{
+    width: 150px;
+}
+#personl{
+    color: blue;
+}
+.line{
+    background-color: blue;
+    margin-top: 5px;
+    position: relative;
+    left:40px;
+    width: 150px;
+    border: 1px solid gray;
+}
+.beneficiary>input{
+    width: 75%;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+.beneficiary{
+    height: 350px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#submit{
+    width: 100px;
+    height: 25px;
+    align-self: start;
+    margin-left: 50px;
+    outline: none;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+.bank{
+    margin-left: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bank>input,select{
+    width:75%;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+.buttons>button:last-child{
+    color: white;
+    background-color: blue;
+    margin-left: 20px;
+    outline: none;
+    border:1px solid black;
+}
+.buttons>button:first-child{
+    border: 1px solid blue;
+    color: blue;
+}
+.buttons>button{
+    height:25px;
+    width: 100px;
+}
+#address{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 25px;
+}
+#address>input{
+    width: 75%;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
